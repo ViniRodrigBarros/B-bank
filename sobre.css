@@ -1,0 +1,96 @@
+#barra{
+    background-color: #263FE3;
+    width: 100%;
+    height: 20px;
+}
+#barra2{
+    background-color: white;
+    width: 10%;
+    height: 50px;    
+}
+#home {
+    margin-top: 60px;
+    width: 100%;
+   
+    color: white;    
+}
+#animation{
+    width: 100%;   
+}
+.box{
+    padding: 60px 0;
+    border-bottom: 2px solid #e5e5e5;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+  }
+  .dark-blue-text {
+    color: #263FE3;
+  }
+
+  
+  *{
+      padding: 0px;
+      margin: 0px;
+  }
+  
+  main{
+      display: flex;
+      justify-content: center;
+      margin: 70px 0px;
+      flex-wrap: wrap;
+  
+  }
+  
+  h2{
+      font-size: 22px;
+      color: #263FE3;
+  }
+  
+  h3{
+    font-size: 15px;
+  }
+  
+  p{
+      margin-top: 15px;
+      padding-left: 7px;
+  }
+  
+  .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+  .card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 320px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+    
+  .card p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
+    
+  .image {
+    float: right;
+    max-width: 50px;
+    max-height: 50px;
+  }
+  
+    
+  .purple{
+    border-left: 3px solid  #263FE3;
+    border-right: 3px solid  #263FE3;
+  }
+
